@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2019-12/PORT_MUZIRIS31.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2019-12/PORT_MUZIRIS31.jpg');
+}
+
+.mydiv-1 h1{
+    color: white;
+}
+
+.mydiv-1{
+    display: flex;
+    justify-content: center;
+}
+
+#navbarSupportedContent li:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+#my-dropdown a:hover{
+    background-color: rgba(0,0,128,0.5);
+}
+#mydiv2{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px red solid; */
+    background-color: rgba(255,255,255, 0.5);
+    height: 350px;
+}
+#div-img img{
+    width: 100%;
+    float: right;
+    margin-top: 40px;
+}
+#div-text p{
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 120px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#btn-div3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#orderbtn{
+    width: 50%;
+    font-size: 30px;
+    background-color: rgba(255,255,255, 0.5);
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    border-right: 5px solid red;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+#new-div-h{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgba(255,255,255, 0.5);
+    height: 80px;
+    padding: 20px;
+}
+#new-div-h h2{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+#footer-div{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 40px;
+    /* font-size: 20px; */
+
+}
+#footer-div p{
+    margin-left: 50px;
+}
+#footer-div ul{
+    text-decoration: none;
+}
+#footer-div li a{
+    text-decoration: none;
+    margin-right: 400px;
+    color: white;
+    font-weight: bold;
+}
+
+#footer-div li a:hover{
+    color: red;
+}
+
+#footer-div h3{
+    margin-left: 200px;
+}
+
+#copyright-div{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 989px) {
+
+  }

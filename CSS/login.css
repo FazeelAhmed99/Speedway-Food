@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2019-12/PORT_MUZIRIS31.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2019-12/PORT_MUZIRIS31.jpg');
+}
+
+.mydiv-1 h1{
+    color: white;
+}
+
+.mydiv-1{
+    display: flex;
+    justify-content: center;
+}
+
+#navbarSupportedContent li:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+#my-dropdown a:hover{
+    background-color: rgba(0,0,128,0.5);
+}
+
+
+
+#signup-div1{
+    display: flex;
+    color: White;
+    font-weight: bold;
+    justify-content: center;
+    font-family: Verdana;
+    
+}
+#mainformdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#div-form{
+    width: 60%;
+    height: 600px;
+   display: flex;
+   background-color: rgba(255,255,255,0.5);
+}
+#div-form form{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+}
+#div-form input{
+    width: 300px;
+    height: 100px;
+    border: none;
+    background: transparent;
+    border-bottom:2px solid red;
+    font-size: 18px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+::placeholder{
+    color: black;
+}
+
+#country{
+    width: 500px;
+    background: transparent;
+    color: black;
+    /* border-bottom: 2px solid red; */
+    height: 700px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signup-btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    /* border-bottom: 5px solid red; */
+    border-bottom: 5px solid red;
+    color: black;
+    background: transparent;
+    padding: 1em 0em;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+/* Footer Css */
+#footer-div{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 40px;
+    /* font-size: 20px; */
+
+}
+#footer-div p{
+    margin-left: 50px;
+}
+#footer-div ul{
+    text-decoration: none;
+}
+#footer-div li a{
+    text-decoration: none;
+    margin-right: 400px;
+    color: white;
+    font-weight: bold;
+}
+
+#footer-div li a:hover{
+    color: red;
+}
+
+#footer-div h3{
+    margin-left: 200px;
+}
+
+#copyright-div{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+}

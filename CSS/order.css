@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2019-12/PORT_MUZIRIS31.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2019-12/PORT_MUZIRIS31.jpg');
+}
+
+.mydiv-1 h1{
+    color: white;
+}
+
+.mydiv-1{
+    display: flex;
+    justify-content: center;
+}
+
+#navbarSupportedContent li:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+#my-dropdown a:hover{
+    background-color: rgba(0,0,128,0.5);
+}
+
+
+#div-first-bar{
+    padding: 40px;
+    display: flex;
+}
+.div-img{
+    width: 20%;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.thisdiv{
+    display: flex;
+}
+.thisdiv img{
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+#mydiv2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px red solid; */
+    background-color: rgba(255,255,255, 0.5);
+    height: 350px;
+}
+#div-img img{
+    width: 40%;
+    float: right;
+    margin-top: 40px;
+}
+#div-text h1{
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 120px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#btn-order-a {
+    display: flex;
+    justify-content: center;
+
+}
+#btn-order-a button{
+    background-color: rgba(255,255,255, 0.5);
+    width: 20em;
+    padding: 1em 0em;
+    font-size: 18px;
+}
+#btn-order-a a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+
+
+
+
+
+#footer-div{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 40px;
+    /* font-size: 20px; */
+
+}
+#footer-div p{
+    margin-left: 50px;
+}
+#footer-div ul{
+    text-decoration: none;
+}
+#footer-div li a{
+    text-decoration: none;
+    margin-right: 400px;
+    color: white;
+    font-weight: bold;
+}
+
+#footer-div li a:hover{
+    color: red;
+}
+
+#footer-div h3{
+    margin-left: 200px;
+}
+
+#copyright-div{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+}
